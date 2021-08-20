@@ -5,44 +5,46 @@
   width: 100%;
   border: 1px solid black;
 
-  //display: flex;
-  //flex-direction: row;
-  //justify-content: center;
-  //align-items: center;
+  position: relative;
 
-  .banner-image {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  .banner-filter {
     height: 100%;
     width: 100%;
-    z-index: 0;
 
-    .banner-filter {
-      height: 100%;
-      width: 100%;
-      background-color: $greige;
-      //opacity: 1;
+    position: absolute;
 
-      z-index: 100;
+    background-color: $greige;
+    opacity: 0.7;
+
+    z-index: 100;
+  }
+
+  .banner-text-container {
+    height: 80%;
+    width: 50%;
+    padding: 5%;
+
+    border: 1px solid red;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    z-index: 200;
+
+    .banner-heading {
+      font-size: 60px;
+      z-index: 200;
     }
 
-    .banner-text-container {
-      height: 80%;
-      width: 60%;
-      padding: 5%;
-      border: 1px solid red;
-
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-
+    .banner-blurb {
       z-index: 200;
-
-      .banner-heading {
-        font-size: 60px;
-      }
-
-      .banner-blurb {
-      }
     }
   }
 }
