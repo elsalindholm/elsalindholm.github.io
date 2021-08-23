@@ -6,7 +6,7 @@ import './about-me.scss';
 export const AboutMe: React.FC = observer(({}) => {
   return (
     <div className={'about-me'}>
-      <div className={'about-me-title'}>ABOUT ME.</div>
+      <h2 className={'about-me-title'}>ABOUT ME.</h2>
       <div className={'about-me-text-container'}>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc non tincidunt justo, ut

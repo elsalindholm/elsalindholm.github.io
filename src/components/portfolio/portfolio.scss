@@ -1,0 +1,22 @@
+@import '../../appStyles/app-styles.scss';
+
+.portfolio {
+  width: 100%;
+  height: auto;
+
+  background-color: $greige;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  .portfolio-title {
+    color: $light-text;
+  }
+
+  .portfolio-card-container {
+    height: 100%;
+    width: 70%;
+  }
+}
