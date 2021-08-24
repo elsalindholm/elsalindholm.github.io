@@ -1,3 +1,5 @@
+@import './appStyles/app-styles.scss';
+
 body {
   margin: 0;
   padding: 0;
@@ -37,13 +39,15 @@ body {
 h2 {
   margin: 2% 0 0 0;
 
-  font-size: 10vw;
+  font-family: $playfair;
+  font-size: 6vw;
   font-weight: 500;
 }
 
 h3 {
   margin: 2% 0;
 
+  font-family: $lato;
   font-size: 4vw;
   font-weight: 500;
 }
@@ -51,6 +55,11 @@ h3 {
 h4 {
   margin: 2% 0;
 
+  font-family: $lato;
   font-size: 1.3vw;
   font-weight: 500;
+}
+
+p {
+  font-family: $roboto;
 }

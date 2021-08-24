@@ -14,19 +14,19 @@ export class PortfolioCard extends React.PureComponent<PortfolioCardProps> {
     return (
       <div className={'portfolio-card'}>
         <h3>{portfolioProject.name}</h3>
-        <p>{portfolioProject.date}</p>
+        <p className={'card-date'}>{portfolioProject.date}</p>
         <div>
           <h4>ABOUT THE PROJECT.</h4>
-          <div>{portfolioProject.blurb}</div>
+          <p>{portfolioProject.blurb}</p>
         </div>
         <div>
           <div>
             <h4>TECHNOLOGIES USED.</h4>
-            <div>{portfolioProject.techUsed}</div>
+            <p>{portfolioProject.techUsed}</p>
           </div>
           <div>
             <h4>SUPPORTED DEVICES.</h4>
-            <div>{portfolioProject.mobileFriendly ? 'Desktop & Mobile' : 'Desktop only'}</div>
+            <p>{portfolioProject.mobileFriendly ? 'Desktop & Mobile' : 'Desktop only'}</p>
           </div>
           <div className={'button-container'}>
             <button className={'card-button'}>VISIT PROJECT</button>

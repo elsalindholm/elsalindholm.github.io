@@ -8,7 +8,7 @@ export const Banner: React.FC = observer(({}) => {
     <div className={'banner-container'}>
       <div className={'banner-filter'}></div>
       <div className={'banner-text-container'}>
-        <div className={'banner-heading'}>HI, I'M ELSA.</div>
+        <h2 className={'banner-heading'}>HI, I'M ELSA.</h2>
         <div className={'banner-blurb'}>
           Blurb blurb blurb blurb blurb blurb blurb blurb blurb blurb blurb blurb blurb blurb blurb
           blurb blurb blurb blurb blurb blurb blurb blurb blurb blurb blurb blurb blurb blurb blurb
