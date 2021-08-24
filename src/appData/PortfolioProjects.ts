@@ -27,7 +27,7 @@ export const RecyclingGame: PortfolioProjectInfo = {
 
 export const RoamResponsibly: PortfolioProjectInfo = {
   date: 'May 2021',
-  name: 'RoamResponsibly Website',
+  name: 'Roam Responsibly Website',
   blurb:
     'Website made for #RoamResponsibly social media campaign. Website made for #RoamResponsibly social media campaign.',
   techUsed: 'TypeScript, HTML, Sass, React, MobX',
@@ -37,7 +37,8 @@ export const RoamResponsibly: PortfolioProjectInfo = {
 export const BurgerBuilder: PortfolioProjectInfo = {
   date: 'April 2021',
   name: 'Build-A-Brgr',
-  blurb: 'Website made for an imaginary burger restaurant.',
+  blurb:
+    'Website made for an imaginary burger restaurant. This was my first proper project using TypeScript,React and MobX. The aim for this project was to learn some of the basics about creating an SPA using React and to get used to TypeScript. ',
   techUsed: 'TypeScript, HTML, Sass, React, MobX',
   mobileFriendly: false,
 };

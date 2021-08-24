@@ -11,6 +11,11 @@
   justify-content: center;
   align-items: center;
 
+  background-image: url('../../../dist/assets/146.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
   .banner-filter {
     height: 100%;
     width: 100%;
@@ -32,6 +37,8 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+
+    color: $light-text;
 
     z-index: 200;
 
