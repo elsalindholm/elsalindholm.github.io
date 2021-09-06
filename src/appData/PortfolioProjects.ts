@@ -29,7 +29,7 @@ export const RoamResponsibly: PortfolioProjectInfo = {
   date: 'May 2021',
   name: 'Roam Responsibly Website',
   blurb:
-    'Website made for #RoamResponsibly social media campaign. Website made for #RoamResponsibly social media campaign.',
+    'Website made for #RoamResponsibly social media campaign. The aim of my second project was to create an SPA that would function like a traditional website.',
   techUsed: 'TypeScript, HTML, Sass, React, MobX',
   mobileFriendly: true,
 };
