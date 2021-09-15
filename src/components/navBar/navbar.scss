@@ -1,7 +1,7 @@
 @import '../../appStyles/app-styles.scss';
 
 .navbar {
-  flex: 0 0 8%;
+  flex: 0 0 5vw;
   width: 100%;
 
   background-color: $greige;
@@ -11,7 +11,13 @@
   justify-content: center;
   align-items: center;
 
-  .nav-button-container {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+
+  z-index: 1000;
+
+  .nav-link-container {
     height: 100%;
     width: 40%;
 
@@ -20,12 +26,17 @@
     justify-content: space-around;
     align-items: center;
 
-    .nav-button {
+    .nav-link {
       background: none;
       border: none;
+      display: block;
+
+      font-family: $lato;
+      text-decoration: none;
       color: $light-text;
-      font-size: 18px;
+      font-size: 20px;
       font-weight: 500;
+      letter-spacing: 2px;
     }
   }
 }

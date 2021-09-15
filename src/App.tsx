@@ -12,11 +12,13 @@ export class App extends React.PureComponent {
   private readonly appState = new AppState();
   public render() {
     return (
-      <div className={'app-container'}>
-        <Banner />
-        <NavBar />
-        <AboutMe />
-        <Portfolio />
+      <div className={'app'}>
+        <div className={'app-container'}>
+          <Banner />
+          <NavBar />
+          <AboutMe />
+          <Portfolio />
+        </div>
       </div>
     );
   }
