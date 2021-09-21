@@ -32,6 +32,8 @@ export const RoamResponsibly: PortfolioProjectInfo = {
     'Website made for #RoamResponsibly social media campaign. The aim of my second project was to create an SPA that would function like a traditional website.',
   techUsed: 'TypeScript, HTML, Sass, React, MobX',
   mobileFriendly: true,
+  projectLink: 'https://www.roamresponsibly.com/',
+  repoLink: 'https://github.com/elsalindholm/roam-responsibly',
 };
 
 export const BurgerBuilder: PortfolioProjectInfo = {

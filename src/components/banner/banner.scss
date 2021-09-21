@@ -7,7 +7,7 @@
   position: relative;
 
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 
@@ -50,5 +50,10 @@
       z-index: 200;
       font-family: $lato;
     }
+  }
+
+  .about-me-anchor {
+    position: absolute;
+    bottom: 0;
   }
 }

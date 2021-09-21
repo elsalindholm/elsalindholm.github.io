@@ -13,6 +13,7 @@ export const Banner: React.FC = observer(({}) => {
           An aspiring web developer based in Scotland, looking to start a new adventure.
         </div>
       </div>
+      <div className={'about-me-anchor'} id={'about-me'}></div>
     </div>
   );
 });

@@ -4,13 +4,11 @@
   height: auto;
   width: 100%;
   margin: 6% 0;
-
-  //border: 1px solid black;
   color: $light-text;
 
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: flex-start;
   align-items: flex-start;
 
   .card-title-container {
@@ -24,24 +22,47 @@
 
   .card-info {
     height: auto;
-    flex: 0 0 60%;
+    flex: 0 0 65%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    section {
+      width: 100%;
+      height: auto;
+      margin: 1% 0;
+    }
 
     .card-button {
       padding: 1% 2%;
-      margin: 3% 2% 1% 0;
+      //margin: 3% 2% 1% 0;
 
       background-color: transparent;
       border: 3px solid $light-text;
       border-radius: 15px;
 
       color: $light-text;
+      font-family: $lato;
       font-size: 1vw;
       font-weight: 600;
+      text-decoration: none;
 
       &:hover {
         background-color: $light-text;
         color: $greige;
       }
+    }
+
+    .button-container {
+      height: 3vw;
+      width: 100%;
+      margin-top: 10px;
+
+      display: flex;
+
+      align-items: center;
+      gap: 10px;
     }
   }
 }

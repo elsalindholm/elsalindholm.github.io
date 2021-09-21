@@ -18,23 +18,28 @@ export class PortfolioCard extends React.PureComponent<PortfolioCardProps> {
           <p className={'card-date'}>{portfolioProject.date}</p>
         </div>
         <div className={'card-info'}>
-          <div>
+          <section>
             <h4>ABOUT THE PROJECT.</h4>
             <p>{portfolioProject.blurb}</p>
-          </div>
-          <div>
-            <div>
-              <h4>TECHNOLOGIES USED.</h4>
-              <p>{portfolioProject.techUsed}</p>
-            </div>
-            <div>
-              <h4>SUPPORTED DEVICES.</h4>
-              <p>{portfolioProject.mobileFriendly ? 'Desktop & Mobile' : 'Desktop only'}</p>
-            </div>
-            <div className={'button-container'}>
-              <button className={'card-button'}>VISIT PROJECT</button>
-              <button className={'card-button'}>VIEW PROJECT REPO</button>
-            </div>
+          </section>
+
+          <section>
+            <h4>TECHNOLOGIES USED.</h4>
+            <p>{portfolioProject.techUsed}</p>
+          </section>
+
+          <section>
+            <h4>SUPPORTED DEVICES.</h4>
+            <p>{portfolioProject.mobileFriendly ? 'Desktop & Mobile' : 'Desktop only'}</p>
+          </section>
+
+          <div className={'button-container'}>
+            <a className={'card-button'} href={portfolioProject.projectLink} target={'_blank'}>
+              VISIT PROJECT
+            </a>
+            <a className={'card-button'} href={portfolioProject.repoLink} target={'_blank'}>
+              VIEW PROJECT REPO
+            </a>
           </div>
         </div>
       </div>

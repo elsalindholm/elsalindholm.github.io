@@ -5,7 +5,7 @@ import './about-me.scss';
 
 export const AboutMe: React.FC = () => {
   return (
-    <div className={'about-me'} id={'about-me'}>
+    <div className={'about-me'}>
       <h2 className={'about-me-title'}>ABOUT ME.</h2>
       <div className={'about-me-text-container'}>
         <div className={'about-me-blurb'}>
@@ -30,7 +30,7 @@ export const AboutMe: React.FC = () => {
           </a>
         </div>
 
-        <div className={'portfolio-blurb'}>
+        <div className={'portfolio-blurb'} id={'portfolio'}>
           <p>Find my latest portfolio projects below.</p>
         </div>
       </div>
