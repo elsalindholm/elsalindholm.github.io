@@ -11,9 +11,11 @@ export interface PortfolioProjectInfo {
 export const FolderTree: PortfolioProjectInfo = {
   date: 'August 2021',
   name: 'Folder Tree',
-  blurb: 'Folder Tree exercise.',
+  blurb:
+    'The purpose of this exercise was to create a folder tree structure with nested folders and documents. ',
   techUsed: 'TypeScript, HTML, Sass, React, MobX',
   mobileFriendly: false,
+  repoLink: 'https://github.com/elsalindholm/folder-tree-exercise',
 };
 
 export const RecyclingGame: PortfolioProjectInfo = {
@@ -23,6 +25,7 @@ export const RecyclingGame: PortfolioProjectInfo = {
     'This is a recycling game. This is a recycling game.This is a recycling game.This is a recycling game.This is a recycling game.',
   techUsed: 'TypeScript, HTML, Sass, React, React DnD, MobX',
   mobileFriendly: false,
+  repoLink: 'https://github.com/elsalindholm/recycling-game',
 };
 
 export const RoamResponsibly: PortfolioProjectInfo = {
@@ -43,4 +46,6 @@ export const BurgerBuilder: PortfolioProjectInfo = {
     'Website made for an imaginary burger restaurant. This was my first proper project using TypeScript,React and MobX. The aim for this project was to learn some of the basics about creating an SPA using React and to get used to TypeScript. ',
   techUsed: 'TypeScript, HTML, Sass, React, MobX',
   mobileFriendly: false,
+  projectLink: 'https://elsalindholm.github.io/build-a-brgr/',
+  repoLink: 'https://github.com/elsalindholm/build-a-brgr',
 };

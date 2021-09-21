@@ -30,7 +30,7 @@
 
   .banner-text-container {
     height: 80%;
-    width: 50%;
+    width: 60%;
     padding: 5%;
 
     display: flex;
@@ -48,7 +48,9 @@
 
     .banner-blurb {
       z-index: 200;
+      margin: 5px 0 0 0;
       font-family: $lato;
+      font-size: 18px;
     }
   }
 
