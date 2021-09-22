@@ -1,4 +1,4 @@
-@import '../../appStyles/app-styles.scss';
+@import '../../../appStyles/app-styles.scss';
 
 .banner-container {
   flex: 0 0 33vw;
@@ -11,7 +11,7 @@
   justify-content: center;
   align-items: center;
 
-  background-image: url('../../../dist/assets/146.jpg');
+  background-image: url('../../../../dist/assets/146.jpg');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;

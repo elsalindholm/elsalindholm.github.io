@@ -6,7 +6,7 @@ import {
   FolderTree,
   RecyclingGame,
   RoamResponsibly,
-} from '../../appData/PortfolioProjects';
+} from '../../../appData/PortfolioProjects';
 
 import './portfolio.scss';
 

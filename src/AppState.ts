@@ -1,9 +1,14 @@
 import { action, observable } from 'mobx';
 
-export class AppState {
-  @observable public count = 0;
+export enum ViewMode {
+  DESKTOP = 'desktop',
+  MOBILE = 'mobile',
+}
 
-  @action incCount() {
-    this.count++;
+export class AppState {
+  @observable public viewMode = ViewMode.DESKTOP;
+
+  @action public checkViewMode(w: number) {
+    this.viewMode = w < 640 ? ViewMode.MOBILE : ViewMode.DESKTOP;
   }
 }

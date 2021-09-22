@@ -1,5 +1,5 @@
 import React from 'react';
-import { PortfolioProjectInfo } from '../../appData/PortfolioProjects';
+import { PortfolioProjectInfo } from '../../../appData/PortfolioProjects';
 
 import './portfolio-card.scss';
 
