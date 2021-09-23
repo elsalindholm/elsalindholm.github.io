@@ -7,6 +7,7 @@ export const AboutMe: React.FC = () => {
   return (
     <div className={'about-me'}>
       <h2 className={'about-me-title'}>ABOUT ME.</h2>
+      <div className={'profile-picture'}></div>
       <div className={'about-me-text-container'}>
         <div className={'about-me-blurb'}>
           <p>I am looking for work as a junior web developer. My skills include: </p>

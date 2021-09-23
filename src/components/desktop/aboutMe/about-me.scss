@@ -13,6 +13,18 @@
     color: $dark-text;
   }
 
+  .profile-picture {
+    height: 120px;
+    width: 120px;
+
+    background-image: url('../../../../dist/assets/Profile_picture.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    border-radius: 50%;
+  }
+
   .about-me-text-container {
     margin: 3% 0;
     width: 33%;
