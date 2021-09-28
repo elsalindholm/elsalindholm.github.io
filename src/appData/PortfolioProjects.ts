@@ -15,6 +15,7 @@ export const FolderTree: PortfolioProjectInfo = {
     'The purpose of this exercise was to gain more experience with concepts like polymorphism and inheritance by creating a folder tree structure with nested folders and documents. I also learnt how to save data in local memory.',
   techUsed: 'TypeScript, HTML, Sass, React, MobX',
   mobileFriendly: false,
+  projectLink: 'https://elsalindholm.github.io/folder-tree-exercise/',
   repoLink: 'https://github.com/elsalindholm/folder-tree-exercise',
 };
 
