@@ -25,6 +25,7 @@ export const RecyclingGame: PortfolioProjectInfo = {
     'In this recycling game you test your knowledge on how to recycle random items of household waste. 10 random waste items will be presented to you one by one and you need to drag and drop the item to the correct bin/disposal option.',
   techUsed: 'TypeScript, HTML, Sass, React, React DnD, MobX',
   mobileFriendly: false,
+  projectLink: 'https://elsalindholm.github.io/recycling-game/',
   repoLink: 'https://github.com/elsalindholm/recycling-game',
 };
 
