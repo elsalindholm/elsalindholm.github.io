@@ -8,6 +8,17 @@ export interface PortfolioProjectInfo {
   repoLink?: string;
 }
 
+export const Wordbash: PortfolioProjectInfo = {
+  date: 'September 2021',
+  name: 'Wordbash',
+  blurb:
+    "This is a game my partner has built. For this project I fixed a couple of reported bugs and created a mobile version for the game. The purpose of this exercise was to gain experience working with other people's code and using git by working from feature branches and creating pull requests.",
+  techUsed: 'TypeScript, HTML, Sass, React, MobX',
+  mobileFriendly: true,
+  projectLink: 'https://mnewbigging.github.io/wordbash/',
+  repoLink: 'https://github.com/MNewbigging/wordbash',
+};
+
 export const FolderTree: PortfolioProjectInfo = {
   date: 'August 2021',
   name: 'Folder Tree',

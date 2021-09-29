@@ -6,6 +6,7 @@ import {
   FolderTree,
   RecyclingGame,
   RoamResponsibly,
+  Wordbash,
 } from '../../../appData/PortfolioProjects';
 
 import './portfolio.scss';
@@ -16,6 +17,7 @@ export class Portfolio extends React.PureComponent {
       <div className={'portfolio'}>
         <h2 className={'portfolio-title'}>PORTFOLIO.</h2>
         <div className={'portfolio-card-container'}>
+          <PortfolioCard portfolioProject={Wordbash} />
           <PortfolioCard portfolioProject={FolderTree} />
           <PortfolioCard portfolioProject={RecyclingGame} />
           <PortfolioCard portfolioProject={RoamResponsibly} />
