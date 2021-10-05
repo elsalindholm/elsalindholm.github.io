@@ -12,7 +12,7 @@ export const Wordbash: PortfolioProjectInfo = {
   date: 'September 2021',
   name: 'Wordbash',
   blurb:
-    "This is a game my partner has built. For this project I fixed a couple of reported bugs and created a mobile version for the game. The purpose of this exercise was to gain experience working with other people's code and using git by working from feature branches and creating pull requests.",
+    'I built a mobile version for my partner’s Word Bash web game. The aim of this project was to gain more experience reading and working with other people’s code as well as using Git. I worked from a Trello board, making feature branches for each task. When a feature was done I would make a pull request, address any comments and it would get merged into the main branch. I also tested the game and fixed any bugs I found.',
   techUsed: 'TypeScript, HTML, Sass, React, MobX',
   mobileFriendly: true,
   projectLink: 'https://mnewbigging.github.io/wordbash/',
@@ -23,7 +23,7 @@ export const FolderTree: PortfolioProjectInfo = {
   date: 'August 2021',
   name: 'Folder Tree',
   blurb:
-    'The purpose of this exercise was to gain more experience with concepts like polymorphism and inheritance by creating a folder tree structure with nested folders and documents. I also learnt how to save data in local memory.',
+    'This app lets you create nested folders and documents. I employed OOP practices to implement; inheritance for the tree nodes, polymorphism to store base types but manipulate derived types via typeguards. I wrote recursive logic to build and render the tree, but used a flat map of nodes to simplify other tasks. I also implemented persistence via localStorage.',
   techUsed: 'TypeScript, HTML, Sass, React, MobX',
   mobileFriendly: false,
   projectLink: 'https://elsalindholm.github.io/folder-tree-exercise/',
@@ -34,7 +34,7 @@ export const RecyclingGame: PortfolioProjectInfo = {
   date: 'July 2021',
   name: 'Recycling Game',
   blurb:
-    'In this recycling game you test your knowledge on how to recycle random items of household waste. 10 random waste items will be presented to you one by one and you need to drag and drop the item to the correct bin/disposal option.',
+    'In this recycling game you test your knowledge on how to recycle random items of household waste. 10 random waste items will be presented to you one by one and you need to drag and drop the item to the correct bin/disposal option. Using ReactDnd in functional components, I created a game where you try to drop waste items into the correct recycling bins. I mostly used CSS grid for the layout of my game and kept the game logic separate from the higher level UI state.',
   techUsed: 'TypeScript, HTML, Sass, React, React DnD, MobX',
   mobileFriendly: false,
   projectLink: 'https://elsalindholm.github.io/recycling-game/',
@@ -45,7 +45,7 @@ export const RoamResponsibly: PortfolioProjectInfo = {
   date: 'May 2021',
   name: 'Roam Responsibly Website',
   blurb:
-    'Website made for #RoamResponsibly social media campaign. The aim of my second project was to create an SPA that would function like a traditional website. I learnt more about designing and building a responsive website that would work and look good both on a desktop and any smaller device. I implemented a routing system for all "pages" on the website for easier navigation through the website and so that links to specific pages could be easily shared via social media. This involved not only routing of pages but also accessing browser history and making sure that the user can use the browser back and forward buttons. I have started work on improving the SEO optimisation of the website using React Helmet, but this is still work in progress.',
+    'A website I created for #RoamResponsibly social media campaign. The aim was to create an SPA that would function like a traditional website. This involved designing the website and creating content whilst making sure the website works and looks good both on desktop and mobile devices. I implemented my own routing of pages which involved reading and setting urls, accessing and updating the browser history.',
   techUsed: 'TypeScript, HTML, Sass, React, MobX',
   mobileFriendly: true,
   projectLink: 'https://www.roamresponsibly.com/',
@@ -56,7 +56,7 @@ export const BurgerBuilder: PortfolioProjectInfo = {
   date: 'April 2021',
   name: 'Build-A-Brgr',
   blurb:
-    'A website made for an imaginary burger restaurant. This was my first proper project using TypeScript,React and MobX. The aim for this project was to learn some of the basics about creating an SPA using React and to get used to TypeScript.',
+    'A website made for an imaginary burger restaurant where you can add menu items to a cart as well as build your own burger. This used inheritance, several state layers; global app state, the shopping cart state and the burger builder state.',
   techUsed: 'TypeScript, HTML, Sass, React, MobX',
   mobileFriendly: false,
   projectLink: 'https://elsalindholm.github.io/build-a-brgr/',
